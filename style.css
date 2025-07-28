@@ -176,3 +176,19 @@ img {
   height: auto;
 }
 
+/* Forcer les éléments à ne pas déborder */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Taille de texte minimum sur mobile */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+  }
+  
+  button, a {
+    min-height: 44px; /* Taille minimum pour les doigts */
+    padding: 10px;
+  }
+}
