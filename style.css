@@ -37,14 +37,14 @@ li {
 header,
 footer {
   background-color: white;
-  padding: 20px 50px;
+  padding: 1.25em 3.125em;
 }
 
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
-  border-radius: 50px;
-  padding: 20px 30px;
+  border-radius: 3.125em;
+  padding: 1.25em 1.875em;
 }
 
 a:hover {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .lien-icone {
-  margin-left: 30px;
+  margin-left: 1.875em;
 }
 
 .lien-icone:hover {
@@ -65,21 +65,21 @@ a:hover {
 }
 
 .carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
-  padding: 50px;
+  border-right: 0.0625em solid #8e86b5;
+  border-bottom: 0.0625em solid #8e86b5;
+  padding: 3.125em;
 }
 
 .carre-contenu h2 {
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 .carre-contenu ul {
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 section {
-  padding: 80px;
+  padding: 5em;
 }
 
 .a-propos-main {
@@ -96,26 +96,26 @@ nav {
 }
 
 nav a {
-  margin-left: 30px;
+  margin-left: 1.875em;
 }
 
 .accueil-photos {
   background-color: white;
-  padding: 80px;
+  padding: 5em;
 }
 
 .accueil-photos h2 {
   color: #242424;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 5em;
 }
 
 .accueil-photos div {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 0.937em;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 0.937em;
 }
 
 .accueil-introduction {
@@ -132,21 +132,21 @@ nav a {
 
 .portfolio-section-photos h2 {
   color: #242424;
-  margin-bottom: 80px;
+  margin-bottom: 5em;
 }
 
 .grid-paysages {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  gap: 15px;
+  gap: 0.937em;
 }
 
 .grid-portraits {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  gap: 15px;
+  gap: 0.937em;
 }
 
 .grid-paysages img,
