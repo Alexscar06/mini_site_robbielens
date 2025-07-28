@@ -171,36 +171,8 @@ nav a {
   padding: 20px 30px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  
-  .container {
-    padding: 10px;
-  }
-}
-
-/* Tablette et plus */
-@media (min-width: 769px) {
-  body {
-    font-size: 16px;
-  }
-}
