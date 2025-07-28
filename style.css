@@ -155,3 +155,18 @@ nav a {
   height: 100%;
   object-fit: cover;
 }
+
+.accueil-introduction > div {
+  max-width: 60%; /* ou 65%, à ajuster selon ce que tu préfères */
+  padding-right: 20px; /* un peu d’espace à droite */
+  position: relative; /* utile si tu veux positionner le bouton autrement */
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px; /* espace au-dessus du bouton pour qu’il ne chevauche pas le texte */
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
